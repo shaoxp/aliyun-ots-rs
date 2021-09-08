@@ -285,7 +285,7 @@ mod tests {
     }
 
     #[rocket::async_test]
-    #[ignore = "avoid add too many row"]`
+    #[ignore = "avoid add too many row"]
     async fn test_otsclient_put_row() {
         let otsclient = OtsClient::new(OtsConfig::test_config());
 
