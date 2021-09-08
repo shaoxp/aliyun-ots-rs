@@ -9,9 +9,9 @@ pub struct OtsConfig {
 impl OtsConfig {
     pub fn test_config() -> OtsConfig {
         OtsConfig {
-            endpoint: String::from("https://jijixx-te.cn-beijing.ots.aliyuncs.com"),
-            access_key_id: String::from("LTAI5tHoQSFAFd3W6AaEyCU7"),
-            access_key_secret: String::from("8Gg9JtRafJGR6bqw0XeLLOwyyeAhSc"),
+            endpoint: String::from(""),
+            access_key_id: String::from(""),
+            access_key_secret: String::from(""),
             instance: String::from("jijixx-te"),
         }
     }
