@@ -14,6 +14,8 @@
 4. GetRange
 5. GetRow
 
+6. Search(索引查询已支持，等待代码移过来）
+
 # License
 MIT
 
